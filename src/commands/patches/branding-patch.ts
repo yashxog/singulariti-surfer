@@ -292,9 +292,9 @@ function configureBrandingNsis(
 !define BrandFullNameInternal "${brandingConfig.brandFullName}"
 !define BrandFullName         "${brandingConfig.brandFullName}"
 !define CompanyName           "${brandingConfig.brandingVendor}"
-!define URLInfoAbout          "https://zen-browser.app"
-!define URLUpdateInfo         "https://zen-browser.app/release-notes/\${AppVersion}"
-!define HelpLink              "https://github.com/zen-browser/desktop/issues"
+!define URLInfoAbout          "https://singulariti-browser.app"
+!define URLUpdateInfo         "https://singulariti-browser.app/release-notes/\${AppVersion}"
+!define HelpLink              "https://github.com/yashxog/singulariti-browser/issues"
 
 ; The OFFICIAL define is a workaround to support different urls for Release and
 ; Beta since they share the same branding when building with other branches that
@@ -303,7 +303,7 @@ function configureBrandingNsis(
 !define URLStubDownloadX86 "https://download.mozilla.org/?os=win&lang=\${AB_CD}&product=firefox-latest"
 !define URLStubDownloadAMD64 "https://download.mozilla.org/?os=win64&lang=\${AB_CD}&product=firefox-latest"
 !define URLStubDownloadAArch64 "https://download.mozilla.org/?os=win64-aarch64&lang=\${AB_CD}&product=firefox-latest"
-!define URLManualDownload "https://zen-browser.app/download"
+!define URLManualDownload "https://singulariti-browser.app/download"
 !define URLSystemRequirements "https://www.mozilla.org/firefox/system-requirements/"
 !define Channel "release"
 
@@ -397,9 +397,9 @@ function configureProfileBranding(
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-pref("startup.homepage_override_url", "https://zen-browser.app/whatsnew?v=%VERSION%");
-pref("startup.homepage_welcome_url", "https://zen-browser.app/welcome/");
-pref("startup.homepage_welcome_url.additional", "https://zen-browser.app/privacy-policy/");
+pref("startup.homepage_override_url", "https://singulariti-browser.app/whatsnew?v=%VERSION%");
+pref("startup.homepage_welcome_url", "https://singulariti-browser.app/welcome/");
+pref("startup.homepage_welcome_url.additional", "https://singulariti-browser.app/privacy-policy/");
 
 // Give the user x seconds to react before showing the big UI. default=192 hours
 pref("app.update.promptWaitTime", 691200);
@@ -408,11 +408,11 @@ pref("app.update.promptWaitTime", 691200);
 // app.update.url.details: a default value for the "More information about this
 // update" link supplied in the "An update is available" page of the update
 // wizard.
-pref("app.update.url.manual", "https://zen-browser.app/download/");
-pref("app.update.url.details", "https://zen-browser.app/release-notes/latest/");
-pref("app.releaseNotesURL", "https://zen-browser.app/release-notes/%VERSION%/");
-pref("app.releaseNotesURL.aboutDialog", "https://www.zen-browser.app/release-notes/%VERSION%/");
-pref("app.releaseNotesURL.prompt", "https://zen-browser.app/release-notes/%VERSION%/");
+pref("app.update.url.manual", "https://singulariti-browser.app/download/");
+pref("app.update.url.details", "https://singulariti-browser.app/release-notes/latest/");
+pref("app.releaseNotesURL", "https://singulariti-browser.app/release-notes/%VERSION%/");
+pref("app.releaseNotesURL.aboutDialog", "https://www.singulariti-browser.app/release-notes/%VERSION%/");
+pref("app.releaseNotesURL.prompt", "https://singulariti-browser.app/release-notes/%VERSION%/");
 
 // Number of usages of the web console.
 // If this is less than 5, then pasting code into the web console is disabled
