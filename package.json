@@ -1,5 +1,5 @@
 {
-  "name": "@singulariti-firefox/surfer",
+  "name": "@singulariti-browser/surfer",
   "version": "1.0.0",
   "description": "It makes easy to build firefox based browser",
   "main": "index.js",
