@@ -1,6 +1,9 @@
 {
   "name": "@singulariti-browser/surfer",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "It makes easy to build firefox based browser",
   "main": "index.js",
   "bin": {
@@ -31,9 +34,6 @@
     "url": "https://github.com/yashxog/singulariti-surfer/issues"
   },
   "homepage": "https://github.com/yashxog/singulariti-surfer/issues#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@resvg/resvg-js": "^1.4.0",
     "async-icns": "^1.0.2",
