@@ -10,6 +10,6 @@ Build Firefox-based browsers with ease
 
 Documentation is available on [docs.gluon.dev](https://docs.gluon.dev).
 
-credits- [Gluon](gulon.dev)
+credits- [Gluon]([gulon.dev](https://github.com/pulse-browser/gluon))
 
 This program downloads and modifies Firefox. [Follow their license](https://hg.mozilla.org/mozilla-central/file/tip/LICENSE) when distributing your program.
